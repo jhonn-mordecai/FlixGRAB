@@ -152,7 +152,7 @@
 						'special_features' => htmlspecialchars($_POST['special_features'], ENT_QUOTES)
 					);
 					$endpoint = '/movies/public/movies/create';
-					include_once('../views/movies/forms/movie.insert.form.php');
+					include_once('../views/movies/forms/movies.insert.form.php');
 				} else { // no form errors
 					$new_records = $movie->records;
 					$title = htmlspecialchars($_POST['title'], ENT_QUOTES);
@@ -172,7 +172,7 @@
 			} else { // Form not posted
 	
 				$endpoint = '/movies/public/movies/create';
-				include_once('../views/actors/forms/movie.insert.form.php');
+				include_once('../views/actors/forms/movies.insert.form.php');
 	
 			}
 	

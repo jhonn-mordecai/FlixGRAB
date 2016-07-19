@@ -18,7 +18,7 @@
 		<header id="my_header">
 			<div class="logo_top">
 				<div class="container">
-					<h1><a href="/php_mysql/public/" title="Home">FlixGRAB</a></h1>
+					<h1><a href="/movies/public/" title="Home">FlixGRAB</a></h1>
 					<p>The net's hottest flix... UP FOR GRABS!</p>
 				</div>
 			</div>		
@@ -29,7 +29,7 @@
 						<li><a href="/movies/public/actors/" title="Actors">Actors</a></li>
 						<li><a href="/movies/public/movies/" title="Movies">Movies</a></li>
 						<!--<li><a href="/movies/public/customers/" title="Customers">Customers</a></li>-->
-						<li><a href="/movies/public/inventory/" title="Inventory">Inventory</a></li>
+						<li><a href="/movies/public/stores/" title="Inventory">Stores</a></li>
 						<!--<li><a href="/movies/public/rentals/" title="Rentals">Rentals</a></li>-->
 					</ul>
 				</div>
